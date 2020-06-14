@@ -9,7 +9,7 @@
   }
 
   .bg-image {
-    background-image: url('/img/bg-masthead.jpg');
+    background-image: url('../img/bg-masthead.jpg');
     background-size: cover;
     background-position: center;
   }
