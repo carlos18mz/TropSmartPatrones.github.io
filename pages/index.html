@@ -12,12 +12,10 @@
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   
 	<!-- Custom fonts for this template -->
-	<link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-	<link href="../vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 	<!-- Custom styles for this page -->
-  <link rel="stylesheet" href="../css/landing-page.min.css">
+  <link rel="stylesheet" href="../css/landing-page.css">
   <link rel="stylesheet" href="../css/animated.css">
   
   <title>Trop Smart - Landing Page</title>
@@ -33,6 +31,24 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav mr-auto">  
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#summary">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link" href="#prices">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+
         <ul class="nav navbar-nav ml-auto">  
           <li class="nav-item">
             <a class="btn btn-primary m-2" href="register.html">Registrarse</a>
@@ -66,7 +82,7 @@
   <section class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/design_head.png');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../img/design_head.png');"></div>
         <div  class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2 class="wow fadeIn" style="color: #007bff;">Descubre un nuevo mercado para ofrecer tus servicios de transporte</h2>
           <h2>&nbsp;</h2>
@@ -78,7 +94,7 @@
 
 
   <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center">
+  <section class="features-icons bg-light text-center" id="features">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -113,25 +129,25 @@
   </section>
 
   <!-- Image Showcases -->
-  <section class="showcase">
+  <section class="showcase" id="summary">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/imagen_1.png');width: 100%;height: 100%;"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../img/imagen_1.png');width: 100%;height: 100%;"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2 class="wow bounceInDown" data-wow-duration="0.7s" style="color: #007bff;">Trop Smart</h2>
           <p class="lead mb-0">Somos un servicio cuyo objetivo principal es brindar una plataforma que ayuda a conductores a publicar su disponibilidad para brindar servicios de transporte determinado para rubros específicos, a su vez, la plataforma otorga a los clientes la capacidad de negociar el precio de cada servicio, establecer una ubicación de encuentro y de destino.</p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/imagen_2.png');width: 100%; height: 100%;"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('../img/imagen_2.png');width: 100%; height: 100%;"></div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2 class="wow bounceInDown" data-wow-duration="0.7s" style="color: #007bff;">Beneficios</h2>
           <p class="lead mb-0">Con esta herramienta los transportistas podrán encontrar clientes casuales mas rapido, además de poder agendar reservas del servicio para dias posteriores. </p>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/imagen_3.png');width: 100%;height: 100%;"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../img/imagen_3.png');width: 100%;height: 100%;"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
         <h2 class="wow bounceInDown" data-wow-duration="0.7s" style="color: #007bff;">¡Únete a TropSmart!</h2>
         <p class="lead mb-0">Nuestros usuarios tienen un sistema de suscripcion mensual. Estamos comprometidos con ofrecer un servicio de calidad constante y siempre escuchar a nuestra comunidad ¿Qué esperas?</p>
@@ -140,7 +156,7 @@
     </div>
   </section>
   <!-- Pricing -->
-<section class="pricing py-5 bg-light">
+<section class="pricing py-5 bg-light" id="prices">
   <div class="container">
     <div class="row">
       <!-- Plan info -->
@@ -194,13 +210,13 @@
   </div>
 </section>
   <!-- Testimonials -->
-  <section class="testimonials text-center">
+  <section class="testimonials text-center" >
     <div class="container">
       <h2 class="mb-5">Testimonios</h2>
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
+            <img class="img-fluid rounded-circle mb-3" src="../img/testimonials-1.jpg" alt="">
             <h5>Margaret E.</h5>
             <p class="font-weight-light mb-0">Empresaria</p>
             <i class="wow fadeIn" class="font-weight-light mb-0">"Excelente idea para un sector del transporte que necesita una mejora y una solucion de software."</i>
@@ -208,7 +224,7 @@
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
+            <img class="img-fluid rounded-circle mb-3" src="../img/testimonials-2.jpg" alt="">
             <h5>Fred S.</h5>
             <p class="font-weight-light mb-0">Transportista afiliado a agencia</p>
             <i class="wow fadeIn" class="font-weight-light mb-0">"Trop Smart me ayudo a conseguir ingresos adicionales en mis tiempos libres..."</i>
@@ -216,7 +232,7 @@
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
+            <img class="img-fluid rounded-circle mb-3" src="../img/testimonials-3.jpg" alt="">
             <h5>Sarah W.</h5>
             <p class="font-weight-light mb-0">Dueña de negocio propio</p>
             <i class="wow fadeIn" class="font-weight-light mb-0">"Esta solucion me salvo al momento de querer transportar un pedido a mi negocio."</i>
@@ -227,7 +243,7 @@
   </section>
 
   <!-- Page Content -->
-  <section class="bg-light text-center">
+  <section class="bg-light text-center" id="team">
 	<div class="container">
 		<br></br>
 		<h2 class="mb-5">Equipo TropSmart</h2>
@@ -235,7 +251,7 @@
 		<!-- Team Member 1 -->
 		<div class="col-xl-3 col-md-6 mb-4">
 		<div class="card border-0 shadow">
-			<img src="img/member1.jpg" class="card-img-top" alt="..." >
+			<img src="../img/member1.jpg" class="card-img-top" alt="..." >
 			<div class="card-body text-center">
 			<h5 class="card-title mb-0">Carlos Mamani Zuñiga</h5>
 			<div class="card-text text-black-50">Ing. de Software</div>
@@ -245,7 +261,7 @@
 		<!-- Team Member 2 -->
 		<div class="col-xl-3 col-md-6 mb-4">
 		<div class="card border-0 shadow">
-			<img src="img/member2.png" class="card-img-top" alt="...">
+			<img src="../img/member2.png" class="card-img-top" alt="...">
 			<div class="card-body text-center">
 			<h5 class="card-title mb-0">Jefferson Silva Cadillo</h5>
 			<div class="card-text text-black-50">Ing. de Software</div>
@@ -258,7 +274,7 @@
 		<!-- Team Member 3 -->
 		<div class="col-xl-3 col-md-6 mb-4">
 		<div class="card border-0 shadow">
-			<img src="img/member4.jpg" class="card-img-top" alt="...">
+			<img src="../img/member4.jpg" class="card-img-top" alt="...">
 			<div class="card-body text-center">
 			<h5 class="card-title mb-0">José Huamán Aparcana</h5>
 			<div class="card-text text-black-50">Ing. de Software</div>
@@ -268,7 +284,7 @@
 		<!-- Team Member 4 -->
 		<div class="col-xl-3 col-md-6 mb-4">
 		<div class="card border-0 shadow">
-			<img src="img/member3.jpg" class="card-img-top" alt="...">
+			<img src="../img/member3.jpg" class="card-img-top" alt="...">
 			<div class="card-body text-center">
 			<h5 class="card-title mb-0">Gonzalo Laqui Chalán</h5>
 			<div class="card-text text-black-50">Ing. de Software</div>
@@ -284,7 +300,7 @@
 	<!-- /.container -->
 
   <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
+  <section class="call-to-action text-white text-center" id="contact">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -356,7 +372,7 @@
 
 
 
-<script src="js/wow.min.js"></script>
+<script src="../js/wow.min.js"></script>
 <script>
     new WOW().init();
 </script>
