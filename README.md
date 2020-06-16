@@ -1,2 +1,1 @@
-# TropSmartPatrones.github.io
-permalink: /index.html
+https://josered30.github.io/tropsmart.github.io/pages/index.html
