@@ -122,3 +122,29 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.second-section {
+  background-color: #d4d4d4;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.component {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
