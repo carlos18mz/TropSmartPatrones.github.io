@@ -1,1 +1,1 @@
-https://josered30.github.io/tropsmart.github.io/pages/index.html
+https://carlos18mz.github.io/TropSmartPatrones.github.io/
